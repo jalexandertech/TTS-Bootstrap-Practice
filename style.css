@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    font-family: 'Epilogue', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+nav .navbar-brand {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+nav .register-btn {
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+main .hero-image img {
+    width: 475px;
+}
+
+main .content-box {
+    width: 100%;
+    min-height: 100%;  
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .content-box h1 {
+    font-size: 75px;
+    font-weight: 700;
+    width: 80%;
+}
+
+main .content-box p {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    width: 80%;
+}
+
+main .content-box .btn-dark {
+    width: 25%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+main .img-thumbnail {
+    border-style: none;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
