@@ -22,7 +22,7 @@ nav .register-btn {
 }
 
 main .hero-image img {
-    width: 475px;
+    width: 445px;
 }
 
 main .content-box {
@@ -58,4 +58,8 @@ main .img-thumbnail {
     padding-right: 35px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+footer .container{
+    padding: 5px 0;
 }
